@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import Brain from "../assets/brain.png";
 import { styled } from "@mui/system";
-import { useNavigate } from "react-router-dom";
 
 
 const UploadButton = styled(Button)({
@@ -39,7 +38,6 @@ const PredictButton = styled(Button)({
 
 const Home = () => {
   const SERVER = process.env.SERVER_URL
-  const navigate = useNavigate();
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [prediction, setPrediction] = useState("");
