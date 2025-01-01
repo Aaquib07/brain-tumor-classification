@@ -13,7 +13,7 @@ IMAGE_SIZE = 150
 app = FastAPI()
 app.add_middleware(
     cors.CORSMiddleware,
-    allow_origins=[os.getenv('CLIENT_URL')],
+    allow_origins=['*'],
     allow_credentials=True,
     allow_methods=['*'],
     allow_headers=['*']
