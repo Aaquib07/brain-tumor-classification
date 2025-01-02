@@ -38,7 +38,6 @@ const PredictButton = styled(Button)({
 });
 
 const Home = () => {
-  const SERVER = process.env.REACT_APP_API_URL
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [prediction, setPrediction] = useState("");
@@ -66,7 +65,7 @@ const Home = () => {
     formData.append("file", file);
 
     try {
-      const response = await axios.post(`${SERVER}/classify`, formData, {
+      const response = await axios.post(process.env.REACT_APP_API_URL + '/classify', formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
