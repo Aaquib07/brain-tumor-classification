@@ -37,7 +37,7 @@ const PredictButton = styled(Button)({
 });
 
 const Home = () => {
-  const SERVER = process.env.SERVER_URL
+  const SERVER = process.env.REACT_APP_API_URL
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [prediction, setPrediction] = useState("");
