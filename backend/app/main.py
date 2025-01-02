@@ -75,7 +75,7 @@ transform = transforms.Compose([
 
 labels = ['glioma tumor', 'meningioma tumor', 'no tumor', 'pituitary tumor']
 
-@app.post("/classify/")
+@app.post("/classify")
 async def classify_image(file: UploadFile = File(...)):
     try:
         image = Image.open(file.file).convert('RGB')

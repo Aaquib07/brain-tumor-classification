@@ -65,12 +65,12 @@ const Home = () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch(`${SERVER}/classify/`, {
-        method: "POST",
-        body: formData,
+      const response = await axios.post(`${SERVER}/classify`, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
       });
-      const result = await response.json();
-      setPrediction(result.class || result.error);
+      setPrediction(response.data.class || response.data.error);
     } catch (error) {
       console.error("Error uploading file:", error);
       setPrediction("An error occurred while classifying.");
