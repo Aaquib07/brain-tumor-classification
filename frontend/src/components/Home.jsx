@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import Brain from "../assets/brain.png";
 import { styled } from "@mui/system";
+import axios from 'axios';
 
 
 const UploadButton = styled(Button)({
