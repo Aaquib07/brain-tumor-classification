@@ -16,7 +16,8 @@ app.add_middleware(
     allow_origins=['*'],
     allow_credentials=True,
     allow_methods=['*'],
-    allow_headers=['*']
+    allow_headers=['*'],
+    access_control_allow_origin=['*']
 )
 
 
@@ -90,4 +91,4 @@ async def classify_image(file: UploadFile = File(...)):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, port=5000, reload=True)
+    uvicorn.run(app, reload=True)
