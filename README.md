@@ -1,10 +1,13 @@
-# brain-tumor-classification
-A React and FastAPI based brain tumor classification website that helps users to detect and classify the brain tumor using deep learning techniques.
+# Brain Tumor Classification
+A React and FastAPI based brain tumor classification website that helps users to detect and classify the brain tumor with just a single click.
+
+## Website Link
+[Check it out here](https://brain-tumor-classifier.netlify.app/)
 
 ## Kaggle Notebook
 The code for dataset preparation, model building and evaluation is given in the below notebook link.
 
-[[Notebook Link](https://www.kaggle.com/code/aaquib07/brain-tumour-computer-vision)]
+[Notebook Link](https://www.kaggle.com/code/aaquib07/brain-tumour-computer-vision)
 
 ## Result
 ![Result Plots](https://www.kaggleusercontent.com/kf/215753567/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..cWQFHNy8FHqEwb7j4GsHug.QHrc_ctMcMnqE-wO9YtHKBwvid1fQlSHLV_VuItxVxvDTYNaJ53Wa48mVcPjtSGCA64EIrXPzKs8x1uRZgnPvs48oTRvvSASKFOt872ZWyGBTFPJv08RbRq5r2iYJ_li--WacQV0vxkGXWQUym4cHok7fZ5WHifm9kqmr3_6dveUhr1Z77Rd9uDuIuW_9u2pZMg4fKQ2zfW_67iMM7ztEFqw0xzGMFmwPbN86ghzPcqFQ72BULIsuHmXSZ5HryP0hXiar3c_gpd-bwx8RR70RO6cK6ugq_ps5Z-3Dwd9yWLI7DhzvaMahNag5ZCoin0tQv8Y9QAI8tWCzEJjYgLP31tqM1f1U6cT8FQg57IEk7_a-qQ-F2wJ4S6dQTbNDVQDUi3zcTeROZBR5nZORpXgqnkt6x3fSqAEXx2Xmw4U5OoTkkWHZ0wk0YNz29p-7JFckanj7iS6mwyQVTETTKVd242e1gJtszmZk1Ual2zwiw213ft-kwEYA_1MBqWiPJ02Zr150baEgox2EYQ7ate8nZjmyXRGrdPuas-o9sGVsEzarQkTjDL9c6UCa9HsqzirzGN2nys2zwp5T7f7ayHXt9EBq4krpQMRivvKoOjMR6A1dpu1_QSq8NNrOF3zeBnCCPosFojGPemHvyJzkYXtmQ.0XAxmlYbg_FPPhTqP4Ll2w/__results___files/__results___18_0.png)
